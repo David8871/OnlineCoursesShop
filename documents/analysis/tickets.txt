@@ -1,0 +1,92 @@
+OSC-1 Create database design
+OSC-2 Create system architecture design
+
+OSC-3 Create spring boot template project with all the dependencies
+OSC-4 Configure database connection and database scheme
+OSC-5 Create hibernate model
+OSC-6 Create dummy index page
+OSC-7 Configure spring security
+OSC-8 Add log in page
+OSC-9 Add client register page(public)
+OSC-10 Add admin register page(private, only for admin role)
+OSC-11  IMPLEMENT ADD A COURSE
+If the creation process is successful the system will allocate an unique id to the new course.
+	The system will validate the following data:
+		-Author first name  to be not blank and not empty
+		-Author last name to be not blank and not empty
+		-Name of the course to be not blank and not empty
+		-Category to be not blank and not empty
+		-Year of publishing to be not blank, not empty and smaller than current year.
+		-Price to be not blank and not empty
+		-Number of people that bought the course.
+
+   If the creation process fails the system will show an appropriate error message.
+
+OSC-12 IMPLEMENT VIEW ALL COURSES
+
+      As admin i should be able to view all the course are in the storage.
+      I should be able to view a list where each line contains : course id, Author first and last name,
+      name of the course,price, how manny pieces have been sold.
+      As a user I should be able to view all the course are in the shop.
+      I should be able to view a list where each line contains : course id,
+      Author first and last name, name of the course,price.
+
+OSC-13  IMPLEMENT DELETE COURSE
+           As a admin I should be able to delete and existing course by id from the system.
+           If the given id is found in the system the course will be deleted and a message
+           will be shown on the screen.
+           If the given id is not found in the system an appropriate error message will be shown on the screen.
+OSC-14   IMPLEMENT EDIT COURSE
+           As a admin I should be able to delete and existing course by id from the system.
+           If the given id is found in the system the course will be deleted and a message
+           will be shown on the screen.
+           If the given id is not found in the system an appropriate error message will be shown on the screen.
+OSC-15   IMPLEMENT VIEW  COURSE BY ID
+           As a user I should be able to see all the details of an existing course by id.
+           If the given id is found in the system the following details will be shown on the screen:course id,
+           Author first and last name, name of the course, publisher,price
+           If the given id is not found in the system, an appropriate error message will be shown on the screen
+OSC-16   IMPLEMENT ADD TO CART
+OSC-17   IMPLEMENT VIEW CART
+OSC-18   IMPLEMENT SEND ORDER
+ ///////////////////////////////////////////MVP////////////////////////////////////////
+
+OSC-19    IMPLEMENT EDIT CART CONTENT
+OSC-20    IMPLEMENT EDIT USER PROFILE
+
+            As a user, I should be able to create an account, with the following details: first name, last name,
+            e-mail address, password, telephone number, street, flat/house number,city, zip code,
+            If the creation process is successful the system will allocate an unique id to the new user.
+
+            The system will validate the following data:
+
+            		- first name  to be not blank and not empty
+            		- last name to be not blank and not empty
+            		- e-mail to be not blank and not empty
+            		- password to be not blank and not empty,
+            		- password should have at least 6 letters and one number
+            		- telephone number to be not blank and not empty
+            		- name of the street to be not blank not empty
+            		- flat/house number to be not blank and not empty
+            		- city to be not blank and not empty
+            		- zip code to be not blank and not empty
+            If the creation process fails the system will show an appropriate error message.
+
+
+OSC-21      IMPLEMENT VIEW  COURSE BY AUTHOR
+As a user I should be able to see all the details of an existing book by author.
+If the given name of the author is found in the system the following details will be shown on the screen:course id,
+Author first and last name, name of the course,price
+If the given name of the author is not found in the system, an appropriate error message will be shown on the screen
+
+OSC-22      IMPLEMENT VIEW  COURSE AMOUNT SOLD
+As a user I should be able to see all the details of an existing course by the amount sold.
+If the given number is found in the system the following details will be shown on the screen:course id,
+Author first and last name, name of the course,price
+If the given amount is not found in the system, an appropriate error message will be shown on the screen
+
+OSC-23     IMPLEMENT VIEW  COURSE BY NAME OF THE BOOK
+As a user I should be able to see all the details of an existing course by id.
+If the given name of the book found in the system the following details will be shown on the screen:course id,
+Author first and last name, name of the course, publisher,price
+If the given name of the course is not found in the system, an appropriate error message will be shown on the screen

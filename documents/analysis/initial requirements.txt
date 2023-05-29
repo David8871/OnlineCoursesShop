@@ -1,0 +1,6 @@
+As a admin i shoud be able to :
+-add a book with the following details: Author(first name, last name),name of the book,
+ category, publisher, year of publishing.
+-delete a book
+-create a category
+-delete a category
